@@ -1,4 +1,5 @@
 """
+    Day 1:
     This implementation uses a set to efficiently keep track of 
     unique elements encountered during the iteration. If a duplicate is found, 
     the method returns True; otherwise, it returns False. The time complexity of this solution is O(n),
