@@ -10,6 +10,12 @@ class Solution(object):
                 max_profit += prices[i] - prices[i - 1]
         return max_profit
 
+"""
+prices = [1]
+solution = Solution()
+print(solution.maxProfit(prices))
+return 0 because we cant make any profit
+"""
 # Medium level problem
 # 200 / 200 test cases passed.
 # Status: Accepted
